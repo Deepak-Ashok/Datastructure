@@ -102,4 +102,4 @@ int main()
 			  default:exit(0);
 		  }
 	  }
-  }
+}
