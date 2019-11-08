@@ -21,23 +21,27 @@ void bst(int a[sz],int ele)
 			c=2*p+1;
 			else
 			c=2*p+2;
-			a[c]=ele;
+			
+			
+			
 		}
+		a[c]=ele;
 	}
 int main()
 {
 	int n,ele,i,a[sz];
-	for(i=0;i<n;i++)
-	a[i]='\0';
 	printf("enter the number of data in bst\n");
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
+	a[i]='\0';
+for(i=0;i<n;i++)
 	{
+	    printf("enter the elements\n");
 		scanf("%d",&ele);
 		bst(a,ele);
 	}
 	printf("bst is\n");
 	for(i=0;i<sz;i++)
 	if(a[i]!='\0')
-	printf("a[%d]=%d\n",a[i]);
+	printf("a[%d]=%d\n",i,a[i]);
 }
