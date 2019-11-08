@@ -32,7 +32,7 @@ int main()
 	int n,ele,i,a[sz];
 	printf("enter the number of data in bst\n");
 	scanf("%d",&n);
-	for(i=0;i<n;i++)
+	for(i=0;i<sz;i++)
 	a[i]='\0';
 for(i=0;i<n;i++)
 	{
